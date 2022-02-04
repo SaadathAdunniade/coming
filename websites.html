@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/webistes.css" rel="stylesheet"/>
+    <link href="./css/ionicons.min.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+       
+        <div class="diff">
+        <h1>
+            Vision programming
+        </h1>
+        <h2> Get ready we're lauching our website soon.</h2>
+        </div>
+        <span class="we" id="days"></span>
+        <div class="first kk">Days</div>
+        <span class="se"  id="hours"></span>
+        <div class="first vv">Hours</div>
+        <span class="fe" id="mins"></span>
+        <div class="first jj">Minutes</div>
+        <span class="se"id="secs"></span>
+        <div class="first ll">Seconds</div>
+
+        <input type="text" placeholder="Enter your email"/>
+        <button class="sep">Notify us</button>
+        
+        <ul class="left">
+            <h4>visit us @</h4>
+            <li><i class="ion-social-facebook"></i></li>
+            <li><i class="ion-social-twitter"></i></li>
+            <li><i class="ion-social-instagram"></i></li>
+        </ul>
+    </header>
+    <section class="section-about">
+        <h5>About-us</h5>
+    </section>
+</body>
+<script>
+    (function(){
+
+const sec =1000;
+
+minutes=sec*60;
+hour=minutes*60;
+day=hour*24;
+let offer="feb 20, 2022 00:00:00",
+countDown=new Date(offer).getTime(),
+x=setInterval(function(){
+    let now=new Date().getTime(),
+    distance=countDown-now;
+    document.querySelector("#days").innerText=Math.floor(distance/(day)),
+    document.querySelector("#hours").innerText=Math.floor((distance % (day))/(hour)),
+    document.querySelector("#mins").innerText=Math.floor((distance % (hour)) /(minutes)),
+    document.querySelector("#secs").innerText=Math.floor((distance % (minutes)) /sec);
+},
+0)}());
+</script>
+</html>

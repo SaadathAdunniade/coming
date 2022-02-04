@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.cot{
+border:3px solid black;
+height:64.5vh;
+width: 70vw;
+margin-top:90px;
+float: left;
+margin-left:195px;
+}
+.bt{
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+    width:59px;
+    letter-spacing:2px;
+    float: left;
+    margin-top:-10px;
+    margin-left:-27px;
+    height:29px;
+}
+.clearfix{
+    clear: both;
+    content: " ";
+    display: block;
+}
+header{
+    background-color:rgb(250, 246, 246);
+    height:10vh;
+    width:69.5vw;
+}
+h2{
+    float: left;
+    margin-top:18px;
+    font-weight: 1000;
+   margin-left:127px;
+    text-align: center;
+    font-size:26px;
+}
+.pic1{
+    font-size: 40px;
+    height:65.3%;
+    float: left;
+    width:35%;
+}
+.box1{
+
+    float: left;
+    height:60.4%;
+    width:29%;
+    margin-top: 20px;
+    margin-left:34px;
+}
+.box2{
+  
+    float:right;
+    height:60.4%;
+    margin-top: 20px;
+    width:29%;
+    margin-right:5px;
+}
+h3{
+    font-size: 25px;
+    float: left;
+    font-weight:600;
+    margin-left:4px;
+   
+}
+h5{
+    text-transform: uppercase;
+    float: right;
+    color: #888;
+    font-weight: 600;
+    margin-top:7px;
+    margin-right:17px;
+    
+}
+.firstP{
+    font-weight: 600;
+    color: #000;
+    float: left;
+    margin-left:4px;
+    margin-top:32px;
+    line-height:23px;
+    font-size:17.5px;
+    word-spacing: 2px;
+    text-align:left;
+}
+.secP{
+    font-weight: 600;
+    color: #000;
+    float: left;
+    margin-top:23px;
+    border-bottom:1px solid black;
+    font-size:17px;
+    text-align:left;   
+    margin-left: 4px;
+}
+.ico{
+    margin-top:27px;
+    float: right;
+    margin-right:125px;
+}
+.pik{
+    border:1px solid white;
+    height:9%;
+    width:10%;
+    float:right;
+    margin-left:6px;
+    margin-right:8px;
+    margin-top:30px;
+   
+}
+.black{
+    float:right;
+    margin-right:33.4px;
+    background-color:brown;
+}
+.blue{
+    background-color:green;
+}
+.red{
+    background-color:yellow;
+}
+.yellow{
+    background-color:red;
+}
+.green{
+    background-color:blue;
+}
+.brown{
+    background-color: black;
+}
+h4{
+    color: black;
+    float:left;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    font-weight: 700;
+    margin-top:5px;
+}
+ul{
+    color: #000;
+    float: left;
+    text-align:left;
+    margin-left:18px;
+    margin-top:13px;
+    line-height:19px;
+    word-spacing:2px;
+    padding-bottom: 10PX;
+    font-size:17px;
+    font-weight:900;
+}
+li{
+    padding-top:13px;
+}
+footer{
+   
+      background-color: #000;
+        height:12vh;
+        float: left;
+        color: white;
+        font-size: 20px;
+        float: left;
+        width:69.6vw;
+        
+       
+}
+.foot{
+    float: left;
+    margin-left: 42.5%;
+    margin-top:29px;
+    font-size:23px;
+}

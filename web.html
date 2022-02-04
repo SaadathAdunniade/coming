@@ -1,0 +1,91 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/web.css" rel="stylesheet"/>
+    <title>web</title>
+</head>
+<body>
+   <header>
+   <video autoplay loop class="back-video" muted plays-inline>
+   <source src="vid.mp4" type="video/mp4">
+   </video>
+   <div class="diff">
+       <h1> coming soon!</h1>
+       <h2>we're updating our websites,we ll be lauching in.</h2>
+   <div class="loader-block">
+   <div class="loader 1">
+       </div>
+       <span id="days"></span>
+       <div class="first">days</div>
+       <div class="loader tw">
+           </div>
+        <span class="sp"id="hours"></span>
+        <div class="sec">hours</div>
+     
+        <div class="loader two">
+            </div>
+         <span class="spi"  id="mins"></span>
+         <div class="third">minutes</div>
+         
+     
+        <div class="loader twos">
+        </div>
+     <span class="spis"  id="secs"></span>
+     <div class="fort">seconds</div>
+
+   </div>
+
+   </header>
+    
+</body>
+<script>
+
+//   const secHand=document.querySelector("#secs");
+//   const minHand=document.querySelector("#mins");
+
+//   const hourHand=document.querySelector("#hours");
+
+(function(){
+
+    const sec =1000;
+
+    minutes=sec*60;
+    hour=minutes*60;
+    day=hour*24;
+    let offer="aug 5, 2022 00:00:00",
+    countDown=new Date(offer).getTime(),
+    x=setInterval(function(){
+        let now=new Date().getTime(),
+        distance=countDown-now;
+        document.querySelector("#days").innerText=Math.floor(distance/(day)),
+        document.querySelector("#hours").innerText=Math.floor((distance % (day))/(hour)),
+        document.querySelector("#mins").innerText=Math.floor((distance % (hour)) /(minutes)),
+        document.querySelector("#secs").innerText=Math.floor((distance % (minutes)) /sec);
+    },
+    0)}());
+//     const sec = timeNOW.getSeconds();
+//     const secDegrees=((sec/60)*360) + 90;
+//    // console.log(secDegrees)
+
+
+//     const minutes = timeNOW.getMinutes();
+//   const minutesDegrees=((minutes/60)*360) + ((sec/60)*6) + 90;
+//   console.log(minutesDegrees)
+  
+  
+ 
+//     const hour = timeNOW.getHours();
+//     const hourDegrees=((hour/12)*360) + ((minutes/60) *30) + 90;
+    
+ 
+
+// }
+//  window.setInterval(displayTime, 1000);
+
+// displayTime();
+
+
+</script>
+</html>

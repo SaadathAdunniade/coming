@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+background-color:blue ;
+position: relative;
+color: yellow;
+background-position:center;
+border:1px solid blue;
+background-size: cover;
+
+}
